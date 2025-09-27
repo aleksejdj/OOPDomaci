@@ -1,17 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>OOPDomaci2</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
-</projectDescription>
+     private String ime;
+     private String prezime;
+     private int godine;
+     private int razred;
+     private double prosek;
+     
+     public Ucenik () {
+    	 this.ime = "";
+    	 this.prezime = "";
+    	 this.godine = 0;
+    	 this.razred = 0;
+    	 this.prosek = 0;
+     }
+     
+     public Ucenik (String ime, String prezime) {
+    	 this.ime = ime;
+    	 this.prezime = prezime;
+     }
+     
+     public Ucenik (String ime, String prezime, int godine) {
+    	 this.ime = ime;
+    	 this.prezime = prezime;
+    	 this.godine = godine;
+     }
+     
+     public Ucenik (String ime, String prezime, int godine, int razred) {
+    	 this.ime = ime;
+    	 this.prezime = prezime;
+    	 this.godine = godine;
+    	 this.razred = razred;
+     }
+     
+     public Ucenik (String ime, String prezime, int godine, int razred, double prosek) {
+    	 this.ime = ime;
+    	 this.prezime = prezime;
+    	 this.godine = godine;
+    	 this.razred = razred;
+    	 this.prosek = prosek;
+     }
